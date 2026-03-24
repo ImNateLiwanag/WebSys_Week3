@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MainTab</title>
+    <style>
+        body {
+            background-image: url(zelda.jpg);
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+ 
+       .main-container {
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+ 
+        .header-bar {
+            background-color: maroon;
+            color: goldenrod;
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            padding: 15px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid goldenrod;
+        }
+ 
+       .nav-bar-container {
+            margin: auto; 
+            background-color: maroon;
+            width: fit-content;
+            padding: 15px 40px;
+            border-radius: 50px;
+            display: flex;
+            gap: 40px;
+            border: 1px solid goldenrod;
+            box-shadow: 0 0 15px rgba(218, 165, 32, 0.4);
+            margin-top: 300px;
+        }
+ 
+        .nav-bar-container a {
+            display: flex;
+            align-items: center;
+            color: goldenrod;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 22px;
+            transition: all 0.3s ease;
+        }
+ 
+        .nav-bar-container a:hover {
+            color: white;
+        }
+
+        .nav-bar-container a span {
+            margin-right: 10px; 
+            font-size: 24px;    
+            vertical-align: middle;
+        }
+ 
+        .profile-img {
+            display: block;
+            margin: 40px auto;
+            width: 400px;
+        }
+ 
+       footer {
+            background-color: maroon;
+            color: goldenrod;
+            font-size: 20px;
+            padding: 20px;
+            border-top: 1px solid goldenrod;
+            width: 100%;
+            box-sizing: border-box;
+            margin-top: 420px;
+        }
+        .icon {
+            margin-right: 8px; 
+            font-size: 22px;   
+            vertical-align: middle;
+        }
+        .contact-item:hover {
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        
+    </style>
+</head>
+<body>
+ 
+    <div class="main-container">
+        <h1 class="header-bar">Liwanag Milan Nathaniel A | BSIT-MWA INF242</h1>
+ 
+        <div style="padding-top: 20px;">
+           
+            <nav class="nav-bar-container">
+                <a href="file:///C:/Users/ryzen/Downloads/Liwanag_Milan_Nathaniel_Week3/aboutme.html"><span>&#128100;</span> ABOUT ME</a>
+                <a href="file:///C:/Users/ryzen/Downloads/Liwanag_Milan_Nathaniel_Week3/hobbies.html"><span>&#127918;</span> MY HOBBIES</a>
+                <a href="file:///C:/Users/ryzen/Downloads/Liwanag_Milan_Nathaniel_Week3/faveweb.html"><span>&#127760;</span> FAVE WEBSITES</a>
+            </nav>
+        
+ 
+    <footer>CONTACT INFO <br>
+    <span class="contact-item">
+    <span class="icon">&#128222;</span> 09515927585 | </span> 
+    <span class="contact-item">
+    <span class="icon">&#9993;</span> natealiwanag@gmail.com
+    </span>
+</footer>
+        </div>
+    </div>
+ 
+</body>
+</html>
